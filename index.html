@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Ariel Sentosa] | Portofolio Kreatif & Profesional</title>
+    <meta name="description" content="Portofolio kreatif dan profesional milik [Ariel Sentosa]. Menampilkan proyek Fotografi, Arduino, Desain Grafis, dan Petualangan Alam.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="preloader-logo">AksaLens</div>
+    </div>
+
+    <div id="hero-canvas"></div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header>
+        <nav>
+            <div class="logo">Portofolio</div>
+            <ul>
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#biodata" class="nav-link">Biodata</a></li>
+                <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                <li><a href="#proyek" class="nav-link">Proyek</a></li>
+                <li><a href="#brand" class="nav-link">Brand</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <button id="theme-switcher" aria-label="Switch theme">
+                <i class="fas fa-sun"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="section-observer">
+            <div class="hero-content">
+                <p class="hero-intro">Halo, saya Muhammad Ariel Sentosa</p>
+                <h1>Saya Seorang <span class="highlight" id="typing-text"></span></h1>
+                <p class="hero-subtitle">Menjelajahi persimpangan antara teknologi, seni, dan alam.</p>
+                <a href="#biodata" class="cta-button">Selengkapnya &darr;</a>
+            </div>
+        </section>
+
+        <section id="biodata" class="section-observer">
+            <h2><span class="highlight">01.</span> Biodata</h2>
+            <div class="biodata-container">
+                <div class="biodata-pic-wrapper">
+                    <img src="profil.jpg" alt="Foto Profil Muhammad Ariel Sentosa">
+                </div>
+                <div class="biodata-content">
+                    <ul>
+                        <li><strong>Nama Lengkap:</strong> Muhammad Ariel Sentosa</li>
+                        <li><strong>Tanggal Lahir:</strong> 03 Januari 2005</li>
+                        <li><strong>Domisili:</strong> Bandar Lampung, Lampung</li>
+                        <li><strong>Pendidikan:</strong> Mahasiswa Aktif S1 Pendidikan Fisika</li>
+                        <li><strong>Email:</strong> arielsentosa660@gmail.com</li>
+                    </ul>
+                    <a href="cv-Muhammad-Ariel.pdf" download class="cta-button cv-button">
+                        <i class="fa-solid fa-download"></i> Unduh CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="section-observer">
+            <h2><span class="highlight">02.</span> Tentang Saya</h2>
+            <div class="tentang-konten">
+                <p>
+                    Saya adalah individu yang digerakkan oleh rasa ingin tahu, dengan hasrat mendalam untuk menciptakan sesuatu yang bermakna. Baik melalui baris kode, bidikan lensa kamera, rangkaian elektronik, maupun jejak langkah di alam bebas, saya selalu menemukan cara untuk berekspresi dan menyelesaikan masalah.
+                </p>
+                <div class="skills">
+                    <h3>Keahlian Utama:</h3>
+                    <ul>
+                        <li>Fotografi</li>
+                        <li>UI/UX Design</li>
+                        <li>Editing</li>
+                        <li>Prototyping Arduino</li>
+                        <li>Desain Grafis</li>
+                        <li>JokiTugas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyek">
+            <h2><span class="highlight">03.</span> Proyek & Minat</h2>
+            <div class="proyek-grid">
+                <div class="kartu-proyek" data-project-id="fotografi">
+                    <div class="kartu-info">
+                        <h4>Fotografi</h4>
+                        <h3>Momen dalam Lensa</h3>
+                        <p>Menangkap keindahan dalam berbagai momen, mulai dari potret manusia hingga pemandangan kota yang dinamis.</p>
+                        <span class="proyek-links">Lihat Detail &rarr;</span>
+                    </div>
+                </div>
+                <div class="kartu-proyek" data-project-id="arduino">
+                    <div class="kartu-info">
+                        <h4>Elektronika & IoT</h4>
+                        <h3>Proyek Arduino</h3>
+                        <p>Merancang dan membangun prototipe perangkat pintar, dari sistem otomatisasi sederhana hingga proyek Internet of Things (IoT).</p>
+                        <span class="proyek-links">Lihat Detail &rarr;</span>
+                    </div>
+                </div>
+                <div class="kartu-proyek" data-project-id="desain">
+                    <div class="kartu-info">
+                        <h4>Desain Visual</h4>
+                        <h3>Desain Grafis</h3>
+                        <p>Menciptakan identitas visual, ilustrasi, dan materi promosi yang menarik dan komunikatif untuk berbagai kebutuhan.</p>
+                        <span class="proyek-links">Lihat Detail &rarr;</span>
+                    </div>
+                </div>
+                <div class="kartu-proyek" data-project-id="alam">
+                    <div class="kartu-info">
+                        <h4>Petualangan</h4>
+                        <h3>Pecinta Alam</h3>
+                        <p>Menjelajahi keindahan alam, mendokumentasikan perjalanan, dan berbagi cerita dari puncak gunung hingga kedalaman hutan.</p>
+                        <span class="proyek-links">Lihat Detail &rarr;</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="brand" class="section-observer">
+            <h2><span class="highlight">04.</span> Brand Saya</h2>
+            <div class="brand-grid">
+                <div class="brand-card">
+                    <img src="brand1.png" alt="Logo Brand Satu" class="brand-logo">
+                    <h3 class="brand-name">Aksara Bicara</h3>
+                    <p class="brand-description">Di Aksara Bicara, kami percaya minuman yang nikmat dapat menyatukan banyak cerita. Kami hadir untuk menemani setiap momen diskusi dan ide cemerlang Anda.</p>
+                </div>
+                <div class="brand-card">
+                    <img src="brand2.png" alt="Logo Brand Dua" class="brand-logo">
+                    <h3 class="brand-name">LabJoki</h3>
+                    <p class="brand-description">Mengejar keunggulan akademis kini lebih mudah. LabJoki hadir sebagai partner tepercaya untuk membantu Anda menyelesaikan tugas dengan hasil yang optimal dan tepat waktu.</p>
+                </div>
+                <div class="brand-card">
+                    <img src="brand3.png" alt="Logo Brand Tiga" class="brand-logo">
+                    <h3 class="brand-name">AksaLens</h3>
+                    <p class="brand-description">Mengabadikan keindahan dalam satu klik. AksaLens adalah partner Anda untuk fotografi berkualitas tinggi, menghadirkan visual yang tajam, jernih, dan tak terlupakan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="section-observer">
+            <h2><span class="highlight">05.</span> Hubungi Saya</h2>
+            <p class="kontak-subtitle">Punya ide menarik atau proyek untuk didiskusikan? Mari kita wujudkan bersama.</p>
+            <a href="mailto:arielsentosa660@gmail.com?subject=Pesan dari Portofolio Website" class="cta-button">Kirim Email</a>
+        </section>
+    </main>
+    
+    <div id="project-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-gallery"></div>
+                <div class="modal-details">
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-category"></p>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@riellzynn" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/riellzynn" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/6285157828922" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.threads.net/@riellzynn" target="_blank" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+        </div>
+        <p>Didesain & Dibuat oleh ArielSentosa &copy; 2025</p>
+    </footer>
+
+    <a href="#hero" id="scrollTopBtn" aria-label="Go to top">&uarr;</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
