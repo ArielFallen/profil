@@ -15,35 +15,35 @@ window.addEventListener('load', () => {
 // Logika Utama Aplikasi
 document.addEventListener('DOMContentLoaded', function() {
 
-    // ===== DATABASE PROYEK (PATH GAMBAR SUDAH DIUBAH) =====
+    // ===== DATABASE PROYEK (PATH GAMBAR SUDAH DIPERBAIKI) =====
     const projectsData = [
         {
             id: "fotografi",
             title: "Momen dalam Lensa",
             category: "Fotografi",
             description: "Ini adalah deskripsi lengkap tentang passion dan pendekatan saya dalam dunia fotografi. Saya suka menangkap emosi yang tulus dan momen yang tidak akan terulang kembali, mengubahnya menjadi sebuah cerita visual yang abadi.",
-            images: [ "images/fotografi1.jpg", "images/fotografi2.jpg", "images/fotografi3.jpg" ]
+            images: [ "fotografi1.jpg", "fotografi2.jpg", "fotografi3.jpg" ]
         },
         {
             id: "arduino",
             title: "Proyek Arduino",
             category: "Elektronika & IoT",
             description: "Menjelajahi dunia mikrokontroler untuk menciptakan solusi otomatis. Proyek ini fokus pada sistem penyiraman tanaman otomatis berbasis sensor kelembaban tanah, menggunakan platform Arduino Uno dan beberapa komponen pendukung.",
-            images: [ "images/arduino1.jpg", "images/arduino2.jpg" ]
+            images: [ "arduino1.jpg", "arduino2.jpg" ]
         },
         {
             id: "desain",
             title: "Desain Grafis",
             category: "Desain Visual",
             description: "Sebuah proyek Desain Grafis. Tujuannya adalah menciptakan identitas visual yang modern, hangat, dan mudah diingat. Prosesnya meliputi desain logo, palet warna, desain kemasan, hingga pembuatan pamflet.",
-            images: [ "images/desain1.jpg", "images/desain2.jpg" ]
+            images: [ "desain1.jpg", "desain2.jpg" ]
         },
         {
             id: "alam",
             title: "Pecinta Alam",
             category: "Petualangan",
             description: "Dokumentasi perjalanan mendaki Gunung dan Masuk Hutan. Perjalanan ini bukan hanya tentang mencapai puncak, tapi juga tentang kebersamaan, ketahanan, dan mengapresiasi keindahan alam Sumatera yang luar biasa.",
-            images: [ "images/alam1.jpg", "images/alam2.jpg" ]
+            images: [ "alam1.jpg", "alam2.jpg" ]
         }
     ];
 
